@@ -1,0 +1,19 @@
+// Type Conversion
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <teachingcodes.h>
+
+int main() {
+
+	float a = 5.25;
+	printf ("%f\n", a); // prints 5.250000
+
+	int b = a;
+	printf ("%d\n", b); // prints 5
+
+	a = b;
+	printf ("%f\n", a); // prints 5.000000
+
+	return 0;
+}
