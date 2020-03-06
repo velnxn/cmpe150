@@ -1,0 +1,20 @@
+//Take two digits as characters from the user and print mult.
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <teachingcodes.h>
+
+int main() {
+
+	char a, b;
+	scanf("%c %c", &a, &b);
+	printf("Result: %d", (a-'0') * (b-'0'));
+
+	printf("%d", a); // prints inputs ascii int value
+	printf("%d", '0'); // prints 0's ascii value
+	printf("%d", a-'0'); // prints input int
+	printf("%d", a-0); // prints inputs ascii int value
+	printf("%d", 'a'-'0'); //prints ascii a - ascii 0
+
+	return 0;
+}
